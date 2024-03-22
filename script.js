@@ -7,14 +7,14 @@ function addTask() {
         const li = document.createElement('li');
         li.textContent = taskText;
 
-        // Adiciona um botão de exclusão
+        
         const deleteButton = document.createElement('button');
         deleteButton.textContent = 'Excluir';
         deleteButton.onclick = function() {
             taskList.removeChild(li);
         };
 
-        // Adiciona um botão de edição
+        
         const editButton = document.createElement('button');
         editButton.textContent = 'Editar';
         editButton.onclick = function() {
